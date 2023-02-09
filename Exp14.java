@@ -15,7 +15,8 @@ class exp14{
 		
 		
 		try{
-			LinkedList<String>s = new LinkedList<String>(); //Initialization of LinkedList of string type 
+			LinkedList<String>s = new LinkedList<String>(); //Initialization of LinkedList of string type
+			//ArrayList<String>s = new ArrayList<String>(); //Initialization of ArrayList of string type
 			
 			BufferedReader br = new BufferedReader(new FileReader("link.txt")); //BufferedReader for Read File,FileReader to acces link.txt file
 			String line;
